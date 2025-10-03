@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме: Ученик Python/Java-разработчика</title>
-    <!-- Загрузка Tailwind CSS для современного и адаптивного дизайна -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Настройка шрифта Inter */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f7f9fc;
             color: #1e293b;
         }
-        /* Кастомный стиль для блоков активности */
         .activity-card {
             background: #ffffff;
-            border-left: 4px solid #3b82f6; /* Синяя полоса слева */
+            border-left: 4px solid #3b82f6;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
             transition: transform 0.2s;
         }
@@ -25,21 +22,19 @@
             transform: translateY(-3px);
             box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
         }
-        /* Стиль для секции Хобби */
         .hobby-item {
             display: inline-flex;
             align-items: center;
             padding: 8px 16px;
             margin: 4px;
-            border-radius: 9999px; /* Полностью скругленный */
-            background-color: #e0f2fe; /* Светло-голубой фон */
+            border-radius: 9999px;
+            background-color: #e0f2fe;
             color: #0c4a6e;
             font-weight: 500;
         }
-        /* Адаптивный контейнер для центрирования контента */
         .container-wrapper {
             max-width: 1000px;
-            padding: 1.5rem; /* P-6 (24px) */
+            padding: 1.5rem; 
         }
     </style>
 </head>
@@ -47,7 +42,6 @@
 
     <div class="container-wrapper mx-auto">
 
-        <!-- СЕКЦИЯ ЗАГОЛОВКА И КЛЮЧЕВОЙ ПОЗИЦИИ -->
         <header class="text-center mb-12 py-8 bg-white shadow-lg rounded-xl">
             <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1e40af] mb-2">
                 Надолинский Кирилл Александрович
@@ -61,7 +55,6 @@
             </div>
         </header>
 
-        <!-- О СЕБЕ И КЛЮЧЕВОЙ ПОИНТ -->
         <section class="mb-10 p-6 bg-white rounded-xl shadow-lg">
             <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">
                 Кратко о себе
@@ -74,7 +67,6 @@
             </p>
         </section>
 
-        <!-- ССЫЛКИ НА ПРОФИЛИ -->
         <section class="mb-10 p-6 bg-white rounded-xl shadow-lg">
             <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">
                 Профили и Контакты
@@ -95,14 +87,12 @@
             </div>
         </section>
 
-        <!-- АКТИВНОСТИ И ОБУЧЕНИЕ -->
         <section class="mb-10">
             <h2 class="text-2xl font-bold text-gray-800 mb-6 border-b pb-2">
                 Академические и Технические Активности
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 
-                <!-- Хакатоны -->
                 <div class="p-5 activity-card">
                     <h3 class="text-xl font-semibold text-gray-700 mb-3">
                         Участие в Хакатонах (Практический опыт)
@@ -116,7 +106,6 @@
                     </ul>
                 </div>
                 
-                <!-- Инвестиции и Экспо -->
                 <div class="p-5 activity-card">
                     <h3 class="text-xl font-semibold text-gray-700 mb-3">
                         Технические и Проектные Мероприятия
@@ -131,7 +120,6 @@
             </div>
         </section>
 
-        <!-- КОММЕРЧЕСКИЙ ОПЫТ (С акцентом на Проектный менеджмент) -->
         <section class="mb-10 p-6 bg-white rounded-xl shadow-lg">
             <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">
                 Коммерческий Опыт (Управление Продуктом и Фронтенд)
@@ -161,7 +149,6 @@
             </ul>
         </section>
         
-        <!-- ХОББИ И ЛИЧНОСТНЫЕ КАЧЕСТВА -->
         <section class="mb-10">
             <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">
                 Личностные Качества и Хобби
@@ -184,7 +171,6 @@
             </div>
         </section>
 
-        <!-- ФУТЕР / ПРИЗЫВ К ДЕЙСТВИЮ -->
         <footer class="text-center pt-6 pb-4 text-gray-500 border-t mt-8">
             <p>Готов немедленно приступить к обучению.</p>
             <p class="text-blue-600 font-semibold mt-1">Ожидаю Вашего приглашения на собеседование!</p>
@@ -193,3 +179,4 @@
     </div>
 </body>
 </html>
+
